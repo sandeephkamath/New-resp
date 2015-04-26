@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vtu Results</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_saved_results">SavedResults</string>
+    <string name="title_activity_saved_sem">SavedSem</string>
+    <string name="title_activity_sem_result">SemResult</string>
+    <string name="title_activity_add_usn">AddUsn</string>
+    <string name="title_activity_prev_results">PrevResults</string>
+</resources>

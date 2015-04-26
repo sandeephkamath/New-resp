@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vturesults.mosambi.com.vturesults" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".SavedResults"
+            android:label="@string/title_activity_saved_results" >
+        </activity>
+        <activity
+            android:name=".SavedSem"
+            android:label="@string/title_activity_saved_sem" >
+        </activity>
+        <activity
+            android:name=".SemResult"
+            android:label="@string/title_activity_sem_result" >
+        </activity>
+        <activity
+            android:name=".AddUsn"
+            android:label="@string/title_activity_add_usn" >
+        </activity>
+        <activity
+            android:name=".PrevResults"
+            android:label="@string/title_activity_prev_results" >
+        </activity>
+    </application>
+
+</manifest>
